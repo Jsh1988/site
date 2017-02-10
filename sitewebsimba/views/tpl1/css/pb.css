@@ -1,0 +1,43 @@
+.block_pb{
+	border: 0px solid #EEE8AA;
+	width: 233px;
+	height: auto;
+}
+.block_popr{
+	width: 218px;
+	height: auto;
+	margin: 3px;
+	padding: 3px;
+}
+.pb_po{
+float: left;
+font: 18px Arial;
+padding-left: 45px;
+color: #00008B;
+}
+.pb_pr{
+float: right;
+font: 18px Arial;
+padding-right: 15px;
+color: #00008B;
+}
+.pb_code{
+	float: left;
+	font: 15px Arial;
+	color: #FFCC00;
+	padding-left: 1px;
+}
+.pb_purchase{
+	float: left;
+	font: 15px Arial;
+	color: #996600;
+	padding-left: 35px;
+	
+}
+.pb_sale{
+	float: right;
+	font: 15px Arial;
+	color: #996600;
+	padding-right: 40px;
+	
+}

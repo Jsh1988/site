@@ -1,0 +1,19 @@
+*{
+margin:0;
+padding:0;
+outline: none;
+}
+body{
+background: #F5F5F5 url(../img/ind/computer.jpg);
+font: 12px Arial, Tahoma, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ul{
+list-style: none;
+}
+li{
+list-style-type: none;
+}
+.clr {clear: both;}

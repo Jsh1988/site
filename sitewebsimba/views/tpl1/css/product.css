@@ -1,0 +1,236 @@
+.block_center_img_menu{
+    
+    width: 450px;
+    height: 400px;
+    padding: 10px ;
+    overflow: hidden;
+}
+.block_center_img_menu > img {
+    width: 450px;
+    height: 400px;
+}
+.url a{
+	color: #996600;
+	font: 25px sans-serif;
+	text-align: center;
+	border-bottom: 4px dotted #996600;
+}
+.url a:hover{
+	border: none;
+}
+.podfoto{
+    text-align: center;
+}
+/*comments*/
+.block_comments{
+    padding: 10px;
+    width: 770px;
+    height: auto;
+    background: #fff;
+    float: left;
+    border: 0px solid #996600;
+
+    margin: 5px 5px 0 0;
+
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+
+    -o-box-shadow: 0 1px 2px #FFE4C4;
+    -ms-box-shadow: 0 1px 2px #FFE4C4;
+    -moz-box-shadow: 0 1px 2px #FFE4C4;
+    -webkit-box-shadow: 0 1px 2px #FFE4C4;
+     box-shadow: 0 1px 2px #FFE4C4;
+}
+
+.block_comments h3{
+    text-align: center;
+    color: #4F4F4F;
+    font: bold 20px sans-serif;
+
+}
+
+/* Form */
+.form p{
+    margin-bottom: 20px;
+}
+.form label{
+    width: 180px;
+    /*float: left;*/
+    color: #996600;
+    padding-top: 5px;
+}
+.form input{
+    width: 400px;
+}
+.form textarea{
+    width: 400px;
+    max-width: 400px;
+    min-width: 400px;
+    line-height: 150%;
+}
+.form input[type="checkbox"]{
+    width: auto;
+}
+
+.form input, .form textarea, .form select{
+    padding: 9px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(218, 165, 32, 0.1);
+    -moz-box-shadow: 0 0 8px rgba(218, 165, 32, 0.1);
+    -webkit-box-shadow: 0 0 8px rgba(218, 165, 32, 0.1);
+    background: #fff;
+}
+.form input:hover, .form textarea:hover, .form select:hover,
+.form input:focus, .form textarea:focus, .form select:focus{
+    border-color: #C9C9C9;
+    box-shadow: 0 0 8px rgba(184, 134, 11, 0.3);
+    -moz-box-shadow: 0 0 8px rgba(184, 134, 11, 0.3);
+    -webkit-box-shadow: 0 0 8px rgba(184, 134, 11, 0.3);
+}
+button.open-form{
+    margin: 5px;
+}
+
+button.open-form,
+.form .submit input{
+
+    width: auto;
+    background: #996600;
+    color: #FFF;
+    padding: 9px 15px;
+    border: 0;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button.open-form:hover,
+.form .submit input:hover{
+    background: #DAA520;
+}
+/* Form */
+
+#loader{
+position: fixed;
+display:none;
+top:0;
+left:0;
+height:100%;
+width:100%;
+background: #F5F5F5;
+opacity:.9;
+}
+#loader span{
+display:block;
+background: url(../img/ind/loader.gif);
+width:220px;
+height:19px;
+position:absolute;
+left:50%;
+top:50%;
+margin: -7px 0 0 -56px;
+}
+#errors{
+color:#7F5354;
+}
+.comments-product{
+    width: 613px;
+    height: auto;
+    background: #fff;
+    float: left;
+    border: 1px solid #996600;
+
+   margin: 5px;
+
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+/*верхушка коментария юзер*/
+.block-comments-title{
+    width: 600px;
+    height: 35px;
+    float: left;
+    border: 0px solid #996600;
+    /*margin: 5px;*/
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    color: #996600;
+}
+.block-comments-title span{
+    color: #006400;
+}
+.block-comments-title p {
+    text-align: right;
+    padding: 5px;
+}
+/*верхушка коментария юзер*/
+/*верхушка коментария менеджер*/
+
+.block-comments-manager{
+    width: 600px;
+    height: 35px;
+    float: left;
+    border: 0px solid #996600;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    color: #00008B;
+}
+.block-comments-manager span{
+    color: #B22222;
+}
+.block-comments-manager p {
+    text-align: left;
+    padding: 5px;
+}
+
+/*верхушка коментария менеджер*/
+
+/*Текст коментария*/
+.block-comments-text{
+    font: 13px sans-serif;
+    text-align: left;
+    color: #00008B;
+    width: 570px;
+    height: auto;
+    float:left;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    padding: 15px;
+    border: 0px solid #996600;
+}
+/*Текст коментария*/
+/*Ответить*/
+.block-comments-otvet{
+    width: 600px;
+    height: 35px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 0px solid #996600;
+}
+.block-comments-otvet p{
+    padding: 7px;
+    color: #996600;
+    text-align: center;
+    font: 15px sans-serif;
+}
+.block-comments-otvet a{
+    cursor: pointer;
+    border-bottom: 2px dotted #996600;
+}
+.block-comments-otvet a:hover {
+    border-bottom: 0;
+}
+/*Ответить*/
+
+/*comments*/

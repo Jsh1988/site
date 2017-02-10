@@ -1,0 +1,11 @@
+.slider{
+	width: 730px;
+	height: 230px;
+	border: 0px solid #EEE8AA;
+	margin: 5px auto;
+	padding: 10px;
+}
+.bxslider{
+	width: 900px;
+	height: 300px;
+}

@@ -1,0 +1,28 @@
+.search_product{
+	width: 745px;
+	height: auto;
+	border: 0px solid #EEE8AA;
+	margin: 10px;
+	padding: 10px 10px 10px 10px;
+}
+.ui-autocomplete{
+	padding: 5px;
+    width: 170px;
+    font-size: 13px !important;
+}
+.search-h2{
+	text-align: center;
+	font: 18px Arial;
+	color: rgb(0, 0, 139);
+}
+.search_h2{
+	text-align: center;
+	padding: 10px;
+}
+.search_h2 a {
+	color: #996600;
+}
+.search_h2 a:hover {
+	color: rgb(0, 0, 139);
+}
+
